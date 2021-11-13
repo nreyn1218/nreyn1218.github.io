@@ -1,0 +1,61 @@
+body {
+    background-color: #EAF9D9;
+}
+header {
+    color:#653239;
+    text-align: center;
+}
+h1 {
+	text-align: center;
+	align-items: center;
+}
+h2 {
+    color:#AF7A6D;
+}
+#about {
+    background-color:#E2D4BA;
+    color:black;
+    border: black;
+    border-style: dashed;
+}
+#info {
+    background-color:#E2D4BA;
+    color:black;
+    border: black;
+    border-style: dashed;
+}
+.center {
+	text-align: center;
+	align-items: center;
+}
+ul {
+    list-style-type: square;
+}
+.myHeader{
+	background-color: #EAF9D9;
+	margin-left: 75px;
+	margin-right:75px;
+	text-align:center;
+}
+.myNav{
+	background-color: #EAF9D9;
+	margin-left: 75px;
+	margin-right:75px;
+	text-align:center;
+}
+.myFooter{
+	background-color: #EAF9D9;
+	margin-left: 75px;
+	margin-right:75px;
+	text-align:center;
+}
+.html-val{
+	background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+}
+.css-val{
+	background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Naked Artsy Rhino Ltd.</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+        <link href="styles/default.css" rel="stylesheet" type="text/css" >
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <script src="scripts/HTMLInclude.js"></script>
+        <script src="scripts/contactForm.js"></script>
+    </head>
+
+	<body>
+		<div class="myHeader center" data-include="components/header.html"></div>
+		<h1><img src="images/rhino.png" alt="rhino" height="100" width="150" ><u>Naked Artsy Rhino Ltd.</u> <img src="images/rhino.png" alt="rhino" height="100" width="150" ></h1>
+		<div class="myNav center" data-include="components/nav.html"></div>
+		
+		<main>
+			<h2 class="center">Contact Us:</h2>
+			<form onsubmit="return false">
+            </form>
+            <input type="text" placeholder="Enter your first name" id="firstName"/>
+            <br>
+            <input type="text" placeholder="Enter your last name" id="lastName"/>
+            <br>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <br>
+            <input type="email" placeholder="Enter your email" id="email"/>
+            <br>
+            <span>What is your question?</span>
+            <br>
+            <textarea id="question" rows="4"></textarea>
+            <br>
+            <button onclick="submitContact();">Submit</button>
+
+            <p id = "info"><u>Email:</u> nakedartsyrhino@gmail.com <br><u>Phone:</u> 1-800-NAR-HINO<br><u>Address:</u> 1695 Rhino Ave, Charlotte, NC, 28213</p>
+		</main>
+
+		<div class="myFooter center" data-include="components/footer.html"></div>
+    <script>HTMLInclude();</script>
+	</body>
+</html>

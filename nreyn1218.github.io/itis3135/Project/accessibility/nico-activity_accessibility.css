@@ -1,0 +1,165 @@
+/*styling for the whole page goes here*/
+body {
+	font-size: 16px;
+	color:black;
+	padding: 0;
+	margin: 0;
+	background:linear-gradient(to right, lightblue,lightgreen)
+	
+}
+
+/*styling for the page title*/
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28px;
+	color:black;
+}
+
+h4 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28px;
+    background-color: white;
+	color: black;
+	text-align: end;
+	
+}
+
+ul {
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+p{
+	font-size: large;
+	font-family: "Times New Roman", Times, serif;
+}
+
+table, th, td {
+	border: dotted black;
+}
+
+.calculator-grid {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	grid-template-columns: repeat(4,100px);
+	grid-template-rows: minmax(120px,auto)repeat(5,100px);
+}
+.calculator-grid >button {
+	cursor: pointer;
+	font-size: 2rem;
+	border: 1px solid black;
+	outline: none;
+	background-color: rgba(255, 255, 255, .75);
+}
+.calculator-grid > button:hover{
+	background-color: rgba(255, 255, 255, .9);
+}
+.span-two{
+	grid-column: span 2;
+}
+.output{
+	grid-column: 1 / -1;
+	background-color: rgba(0,0,0,.75);
+	display:flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 10px;
+	word-wrap:break-word;
+	word-break: break-all;
+}
+
+.output .previous-operand{
+	color:rgba(255, 255, 255, .75);
+	font-size: 1.5rem;
+}
+
+.output .current-operand{
+	color: white;
+	font-size: 2.5rem;
+}
+
+.center {
+	text-align: center;
+}
+
+.big-text {
+	font-size: 28px;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+.center
+{
+	text-align:center;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color:lightcyan;
+}
+
+/*styling for the coffee types*/
+.label {
+    font-weight: bold;
+}
+
+
+/*styling for the Google Map link*/
+#locationlink {
+	color: rgb(56, 0, 0);
+	font-style:italic;
+}
+
+#button
+{
+	background-color: darkblue;
+	color:white;
+	font-style:italic;
+	font-size:12px;
+
+}
+
+#name
+{
+	background-color: lightpink;
+	color:lightyellow;
+	font-size: 12px;
+}
+
+#num
+{
+	background-color: lightpink;
+	color:lightyellow;
+	font-size: 12px;
+}
+
+#mail
+{
+	background-color: lightpink;
+	color:lightyellow;
+	font-size: 12px;
+}
+
+footer {
+    font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+

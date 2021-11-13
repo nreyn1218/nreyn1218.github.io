@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="Styles/default.css" rel="stylesheet" type="text/css" >
+	<script src="Scripts/array.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <h1>ITIS3135-051 Nico Reynoso</h1>
+    <main>
+        <div>
+            <h2>Display Employees</h2>
+            <button onclick="displayEmployees()">Show Employees</button><br>
+            <select id="employees"></select>
+        </div>
+        <div>
+            <h2>Add Salary</h2>
+            <label>Enter Name : <input type="text" id="name" autofocus required class="nameerror"></label> <br>
+            <label>Enter Salary : <input type="number" id="salary" required class="salaryerror"></label><br>
+            <button onclick="addSalary()">Add Salary</button>
+        </div>
+        <div>
+            <h2>Display Salary</h2>
+            <button onclick="displaySalary()">Display Salary</button>
+            <table id="result_table"></table>
+        </div>
+        <div>
+            <h2>Display Result</h2>
+            <button onclick="displayResults()">Display Result</button>
+            <div id="results"></div>
+        </div>
+    </main>
+
+
+    <footer>
+		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fnreynoso%2Fitis3135%2Farray.html">
+			<img src="Images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fnreynoso%2Fitis3135%2Farray.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+			<img src="Images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+	
+	</footer>
+</body>
+</html>
