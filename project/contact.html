@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact Us</title>
+		<meta name="description" content="project">
+		<meta charset="UTF-8">
+        <link href="styles/default.css" rel="stylesheet" type="text/css" >
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <script src="scripts/HTMLInclude.js"></script>
+        <script src="scripts/contactForm.js"></script>
+    </head>
+
+	<body>
+		<div class="myHeader center" data-include="components/header.html"></div>
+		<h1><img src="images/logo1.PNG" alt="logo1" height="100" width="150" >Contact Us <img src="images/logo1.PNG" alt="logo1" height="100" width="150" ></h1>
+		<div class="myNav center" data-include="components/nav.html"></div>
+		
+		<main>
+			<h2>Fill out your information below:</h2>
+			<form onsubmit="return false">
+            </form>
+            <input type="text" required placeholder="Enter your first name" id="firstName"/>
+            <br>
+            <input type="text" required placeholder="Enter your last name" id="lastName"/>
+            <br>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <br>
+            <input type="email" required placeholder="Enter your email" id="email"/>
+            <br>
+            <span>What is your question for us?</span>
+            <br>
+            <textarea id="question" required rows="4"></textarea>
+            <br>
+            <button onclick="submitContact();">Submit</button>
+
+
+            <p class="center">Here are two of our itineraries from our most recent trips: </p>
+            <br>
+            <div class="center">
+            <a href="components/itinerary1.docx" target="_blank">Itinerary across the U.S. East to West</a> &#9553;
+            <a href="components/itinerary2.docx" target="_blank">Itinerary across the North of the U.S.</a>
+            </div>
+		</main>
+
+		<div class="myFooter center" data-include="components/footer.html"></div>
+    <script>HTMLInclude();</script>
+	</body>
+</html>

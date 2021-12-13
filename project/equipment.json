@@ -1,0 +1,18 @@
+{"equipment":[
+	{
+        "name":"AEV Kinetic Recovery Rope",
+		"bio":"Whether stuck in deep mud, sand, snow or silt, AEV’s Kinetic Recovery Rope is the perfect tool for freeing a stuck vehicle."
+	},
+	{
+		"name":"Hi-Lift Jack",
+		"bio":"The Hi-Lift jack is an irreplaceable piece of equipment for any vehicle in any terrain. These jacks lift the chassis up, which can be useful when you are bellied out on a rock or tree stump. If you want to lift a tire off the ground the entire suspension will droop out before the tire lifts, so we recommend strapping the axle to the chassis at ride height so the suspension cannot extend."
+	},
+	{
+		"name":"AEV Tree Strap",
+		"bio":"AEV’s Tree Strap allows a winch cable to be safely anchored to tree’s trunk when recovering a stuck vehicle, without causing any permanent damage."
+	},
+	{
+		"name":"AEV EZ Tire Deflator",
+		"bio":"Running the proper air pressure for the type of terrain you are traveling on is a fundamental of off-roading. The less air pressure you have in your tires, the larger the contact patch you will have, giving you the largest footprint possible for maximum traction on soft surfaces such as snow or sand. A tire with lower tire pressure will also provide considerably more traction when climbing over obstacles because the tire can conform to the surface and grab on to whatever you are trying to get over. Additionally, lower tire pressure allows the sidewall to flex more for a comfortable ride on the trail and a decreased risk of tire damage from sharp rocks, roots, etc."
+	}
+]}
